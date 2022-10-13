@@ -8,20 +8,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minha página</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
-  <div>
+
+  <div class= "caixa" align="center">
     <h1>Faça seu login</h1>
     <form class="tela-login" method="POST" action="validar.php">
-      <label for="">Email</label>
-      <input required placeholder="Email" name="email" type="email">
+      <label id = "email" for="">Email</label>
+      <input required placeholder="Email do rock" name="email" type="email">
       <br>
       <br>
-      <label for="">Senha</label>
-      <input required placeholder="Senha" name="senha" type="password">
-      <input type="submit" value="Logar">
-      <p>não tem cadastro? <a href="telaCadastro.php"><strong>cadastre-se</strong></a></p>
+      <label id = "senha" for="">Senha</label>
+      <input required placeholder="Senha do rock" name="senha" type="password">
+      <br>
+      <br>
+      <input id="btn" type="submit" value="Entrar"> 
+      <p id="jatem">não tem cadastro? <a href="telaCadastro.php"><strong>cadastre-se</strong></a></p>
     </form>
     <p>
       <?php

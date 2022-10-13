@@ -1,0 +1,48 @@
+#usuario {
+    font-family: fantasy;
+}
+
+.caixa {
+
+    margin-top: 12%;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-radius: 16px;
+
+    border: 5px;
+    border-color: black;
+    border-style: outset;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    font-family: fantasy
+}
+
+#btn {
+    font-size: large;
+    font-family: fantasy;
+    font-style: oblique;
+    border-color: black;
+    height: 50px;
+    width: 100px;
+}
+
+#senha {
+    font-family: fantasy;
+}
+
+#jatem {
+    font-family: fantasy;
+}
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6aaad4ce-63ad-4319-b348-29b47ebcbcbb/d851f2v-71226adb-3272-41b8-9638-e829fed0b9f6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZhYWFkNGNlLTYzYWQtNDMxOS1iMzQ4LTI5YjQ3ZWJjYmNiYlwvZDg1MWYydi03MTIyNmFkYi0zMjcyLTQxYjgtOTYzOC1lODI5ZmVkMGI5ZjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4GPJAfqcMO192EXMCtQoyty-RvPmxaNAaoWRj9Od10g);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+
+}
