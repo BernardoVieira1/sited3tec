@@ -30,11 +30,11 @@
 
     }
     th{
-      background-color: red;
+      background-color: yellow;
     }
     td{
       text-align: center;
-      background-color: yellow;
+      background-color: white;
     }
  
 
