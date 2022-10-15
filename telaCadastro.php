@@ -18,7 +18,7 @@
   <div class = "caixa" align="center">
     <h1 id="cadastro">Faça seu Cadastro</h1>
       <form method="POST" action="cadastro.php">
-        <label id = "email" for="senha">Email</label>
+        <label id = "email" for="email">Email</label>
         <input required placeholder="Email do rock" name="email-cadastro" type="email" id ="">
         <br>
         <br>
