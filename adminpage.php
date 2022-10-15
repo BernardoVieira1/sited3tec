@@ -16,24 +16,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ADMIN</title>
+  <title>ADMIN DO ROCK</title>
   <link rel="stylesheet" href="./styles/adminstyle.css">
   
 </head>
 <body>
+  <style>
+    body{
+      background-color: white;
+    }
+    .tabela-admin{
+      background-color: black;
+
+    }
+    th{
+      background-color: red;
+    }
+    td{
+      text-align: center;
+      background-color: yellow;
+    }
+ 
+
+  </style>
+  <div class = "caixote">
+
+  
   <a href="sair.php"><button>Sair</button></a>
   <div>
-    <h1>Turnê</h1>
+    <h1>Administração da Turnê do rock</h1>
     <table class="tabela-admin">
       <thead>
         <tr>
-            <td><strong>ID</strong></td>
-            <td><strong>USUARIO</strong></td>
-            <td><strong>EMAIL</strong></td>
-            <td><strong>ADMIN</strong></td>
+            <th><strong>ID</strong></th>
+            <th><strong>USUARIO</strong></th>
+            <th><strong>EMAIL</strong></th>
+            <th><strong>ADMIN</strong></th>
+            <th class="magnusmito">EDITAR</th>
+            <th class="magnusmito">DELETAR</th>
         </tr>
 
       </thead>
+      </div>
       <tbody>
         <?php
           $allUsers= "SELECT * FROM users";
@@ -44,11 +68,11 @@
             echo "<td>".$user['usuario']."</td>";
             echo "<td>".$user['email']."</td>";
             echo "<td>".$user['admin']."</td>";
-            echo "<td><a href="."editar.php?id=".$user['id'].">Editar</a></td>";
-            echo "<td><a href="."deletar.php?id=".$user['id'].">Deletar</a></td>";
+            echo "<td class = 'mags'><a href="."editar.php?id=".$user['id']."><button>Editar</button></a></td>";
+            echo "<td class = 'mags'><a href="."deletar.php?id=".$user['id']."><button>Deletar</button></a></td>";
             echo"</tr>";
           }
-        ?>
+        ?> 
       </tbody>
     </table>
   </div>
