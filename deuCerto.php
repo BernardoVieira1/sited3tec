@@ -108,7 +108,8 @@ margin-left: 1%;
     <div class="caixa" align ="center">
     <div class = "center"> 
   <div class="logo"><img src="./arquivos/PORQUE.png" width="150" height="150" /></div>
-  <div class="logodois"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Iron_Maiden_Logo.png" width="700" heigth="500"/></div> 
+  <div class="logodois"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Iron_Maiden_Logo.png" width="700" heigth="500"/></div>
+  <a href="sair.php"><button>Sair</button></a>
   <div class="logotres"><img src="./arquivos/PORQUE.png" width="150" height="150" /></div>
   </div>
   </div>
@@ -249,6 +250,6 @@ Julho de 2023<br>
 11 Ziggo Dome , Amsterdam, PAÍSES BAIXOS – (À venda qui 13 out)<br>
 13 Sportpaleis, Antuérpia, BÉLGICA – (À venda qui 13 out)<br>
 15 The Return of the Gods Festival, Milão, ITÁLIA – (À venda amanhã! sex 7)</h2>
-<a href="sair.php"><button>Sair</button></a>
+
 </body>
 </html>

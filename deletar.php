@@ -11,7 +11,7 @@
   $delete = "DELETE FROM users WHERE id='$id'";
   $resultado_delete = mysqli_query($conn, $delete);
 
-  header("Location: adminpage.php");
+  header("Location: listaUsers.php");
 
 
 

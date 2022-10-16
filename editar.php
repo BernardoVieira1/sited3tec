@@ -27,7 +27,8 @@
         <input name="email" type="text" value="<?php echo $user['email'] ?>">
         <label for="">Admin</label>
         <input name="admin" type="text" value="<?php echo $user['admin'] ?>">
-        <input type="submit" value="Editar">
+        <button type="submit"><img src="./arquivos/salvar.svg" alt="salvar"></button>
+        <!-- <input type="submit" src="./" value="Editar"> -->
       </form>
     </div>
   </body>

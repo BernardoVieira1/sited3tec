@@ -22,7 +22,7 @@
   $update = "UPDATE users SET usuario='$nome',email='$email',admin='$admin' WHERE id='$id'";
   $resultado_update = mysqli_query($conn, $update);
 
-  header("Location: adminpage.php");
+  header("Location: listaUsers.php");
 
 
 

@@ -1,13 +1,10 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
 body{
-  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.tabela-admin{
-  width: 50%;
-}
-
-.deucerto{
-  color: #ffff;
-
-}
-
